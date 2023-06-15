@@ -1,10 +1,11 @@
 {
-  "name": "rock-paper-scissors",
+  "name": "sudoku-validator",
   "version": "1.0.0",
-  "description": "Rock, Paper, Scissors game in TypeScript",
+  "description": "A sudoku validator in TypeScript",
   "scripts": {
-    "precompile": "rimraf src/**/*.js test/**/*.js",
-    "compile": "tsc",
+    "prebuild": "rimraf src/**/*.js test/**/*.js",
+    "build": "tsc",
+    "start": "ts-node src/main.ts",
     "pretest": "rimraf src/**/*.js test/**/*.js",
     "test": "jest",
     "test:watch": "jest --watchAll"

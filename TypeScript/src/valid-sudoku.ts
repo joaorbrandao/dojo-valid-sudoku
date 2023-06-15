@@ -1,4 +1,4 @@
-type SudokuMatrix = string[][];
+export type SudokuMatrix = string[][];
 
 export class SudokuValidator {
   constructor(private readonly input: SudokuMatrix) {}
